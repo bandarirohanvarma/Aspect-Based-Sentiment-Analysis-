@@ -17,7 +17,7 @@ if st.button("Analyze Review"):
     else:
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/analyze",
+                "https://aspect-based-sentiment-analysis-0cm1.onrender.com",
                 json={"text": review}
             )
 
