@@ -3,12 +3,12 @@ import requests
 
 st.set_page_config(page_title="Retail ABSA", page_icon="🛍️", layout="centered")
 
-st.title("🛍️ Retail Aspect-Based Sentiment Analysis")
-st.markdown("Analyze customer reviews at aspect level.")
+st.title("🛍️ Aspect-Based Sentiment Analysis")
+st.markdown("Analyze reviews at aspect level.")
 
 st.divider()
 
-review = st.text_area("Enter Customer Review", height=150)
+review = st.text_area("Enter Review", height=150)
 
 if st.button("Analyze Review"):
 
